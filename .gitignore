@@ -1,0 +1,16 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore image datasets (Change this if your folder is named differently!)
+dataset/
+images/
+data/
+
+# Ignore large saved model files
+*.h5
+*.keras
+*.tflite
