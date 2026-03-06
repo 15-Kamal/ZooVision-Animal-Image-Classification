@@ -8,3 +8,7 @@
 * TensorFlow / Keras
 * OpenCV
 * NumPy & Matplotlib
+
+## Author
+Kamal P
+GitHub: https://github.com/15-Kamal
