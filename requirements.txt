@@ -1,3 +1,8 @@
 streamlit
+pandas
 numpy
-pillow
+scikit-learn
+joblib
+tensorflow
+Pillow
+imbalanced-learn
