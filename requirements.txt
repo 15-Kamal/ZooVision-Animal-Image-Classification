@@ -1,4 +1,7 @@
 streamlit
+tensorflow
+numpy
+pillow
 rich
 markdown-it-py
 pygments
