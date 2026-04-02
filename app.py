@@ -77,7 +77,7 @@ with tab1:
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
             st.image(image, caption="Ready for analysis", use_container_width=True)
-            if st.button("🔍 Analyze Uploaded Image", type="primary", use_container_width=True):
+            if st.button(" Analyze Uploaded Image", type="primary", use_container_width=True):
                 predict_and_display(image)
 
 
