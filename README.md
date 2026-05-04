@@ -1,4 +1,4 @@
-# ZooVision: Animal Image Classification
+# ZooVision AI- Automated Animal Classification
 * Developed a Computer Vision pipeline using **TensorFlow** and **OpenCV** to preprocess, augment, and classify images of various animal species.
 * Built and trained a deep learning model (Convolutional Neural Network) to accurately predict animal classes from unseen image data.
 * Implemented custom image preprocessing techniques (resizing, normalization) to handle diverse image resolutions and lighting conditions, ensuring robust model performance.

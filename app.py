@@ -97,7 +97,7 @@ def execute_dual_inference(image):
     global_df = pd.DataFrame({"Probability (%)": global_probs}, index=global_labels)
     
     # -----------------------------------------
-    # RENDER DASHBOARD UI
+    # DASHBOARD UI
     # -----------------------------------------
     col1, col2 = st.columns([1, 1.3])
     
@@ -172,7 +172,6 @@ with tab1:
 with tab2:
     st.info("Ensure your browser has permission to access your camera.")
     
-    # --- THE RESIZE FIX ---
     # We create 3 invisible columns: 20% empty space, 60% camera space, 20% empty space
     spacer_left, cam_col, spacer_right = st.columns([0.2, 0.6, 0.2])
     
