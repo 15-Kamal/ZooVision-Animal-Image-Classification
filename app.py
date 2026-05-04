@@ -13,7 +13,6 @@ st.set_page_config(page_title="ZooVision AI", page_icon="🦁", layout="wide")
 CONFIDENCE_THRESHOLD = 95.0
 MARGIN_THRESHOLD = 40.0
 
-# IMPORTANT: Ensure this folder name matches exactly where your training images are saved!
 DATASET_DIR = "data"
 
 CLASS_NAMES = [
