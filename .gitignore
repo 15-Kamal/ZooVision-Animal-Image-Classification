@@ -1,16 +1,24 @@
-# Ignore the virtual environment
+# Environments
 venv/
+env/
+.env
 
-# Ignore Python cache files
+# Python Cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Ignore image datasets (Change this if your folder is named differently!)
-dataset/
-images/
+# Jupyter Notebook Cache
+.ipynb_checkpoints/
+
+# IDE / Editor Folders
+.vscode/
+.idea/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Large Data & Models (Optional)
 data/
-
-# Ignore large saved model files
-*.h5
-*.keras
-*.tflite
